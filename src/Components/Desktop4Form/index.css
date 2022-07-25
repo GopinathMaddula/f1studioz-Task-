@@ -1,0 +1,247 @@
+.desktop4-form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6F8FA;
+}
+
+.form4-container{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 1px 5px #E4E4E4;
+    border-radius: 5px;
+    width: 55%;
+    margin-top: 20px;
+    background-color: white;
+}
+.progress-bar-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.progress-bar{
+    background-color: #D8D8D8;
+    height: 6px;
+    width: 370px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 24px;
+    overflow: hidden;
+    
+}
+.percentage-bar{
+    background-color: #17A85F;
+    height: 6px;
+}
+.percentage-width-0{
+    width: 0%;
+}
+.percentage-width-25{
+    width: 25%;
+}
+.percentage-width-50{
+    width: 50%;
+}
+.percentage-width-75{
+    width: 75%;
+}
+.percentage-width-100{
+    width: 100%;
+}
+.percentage{
+    font-family: helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    color: #34495E;
+}
+.percent{
+    font-weight: 600;
+}
+
+.form-tab{
+    display: flex;
+    flex-direction: row;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 100%;
+    background-color: #E4E4E4;
+    margin-bottom: 24px;
+    
+}
+.tab-heading{
+    font-family: helvetica;
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 12px;
+    color: #34495E;
+    padding-left: 24px;
+}
+.label4-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+.label4{
+    font-family: helvetica;
+    font-size: 14px;
+    color: #34495E;
+    margin-left: 120px;
+}
+.drop-down4{
+    padding: 10px;
+    border:1px solid #E4E4E4;
+    width: 50%;
+    margin-right: 70px;
+    border-radius: 5px;
+}
+.label4-symbol{
+    display: flex;
+    flex-direction: row;
+}
+.question4-icon{
+    color: #E4E4E4;
+    margin-top: 14px;
+    margin-left: 10px;
+}
+.measure-size-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-right: 70px;
+}
+.width-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.height-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+.select-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+}
+.width-label{
+    font-family: helvetica;
+    font-size: 14px;
+    color: #34495E;
+}
+.width-drop-down{
+    padding: 10px;
+    border:1px solid #E4E4E4;
+    width: 43%;
+    border-radius: 5px;
+    height: 44px;
+}
+.radio-container{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin-right: 70px;
+}
+.radio-checkbox-label{
+    font-family: helvetica;
+    font-size: 14px;
+    color: #2A292A;
+    margin-top: 15px;
+}
+.packaging-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-right: 70px;
+}
+.packaging-dropdown{
+    padding: 10px;
+    border:1px solid #E4E4E4;
+    width: 100%;
+    border-radius: 5px;
+    height: 44px;
+}
+.packaging-highlight{
+    font-family: helvetica;
+    font-size: 13px;
+    color: #D50000;
+}
+.highlight-container{
+    display: flex;
+    flex-direction: row;
+}
+.info-icon{
+    color: #D50000;
+    margin-top: 13px;
+    margin-right: 10px;
+}
+.checkboxes-dropdown-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+    margin-right: 70px;
+}
+.checkboxes-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.checkbox-label-container{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+
+}
+.checkbox{
+    background-color: #66332B;
+    margin-right: 5px;
+}
+.checkbox-label{
+    font-family: helvetica;
+    font-size: 14px;
+    color: #2A292A;
+    margin-top: 1px;
+}
+.packing-drop-down{
+    padding: 10px;
+    border:1px solid #E4E4E4;
+    width: 60%;
+    border-radius: 5px;
+    height: 44px;
+}
+.desk4-buttons-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 10px;
+}
+.button4{
+    padding: 12px;
+    border-radius: 5px;
+    margin-right: 12px;
+    border: none;
+    font-family: helvetica;
+    font-size: 14px;
+}
+.preview-button{
+    color: #66332B;
+    border: 1px solid #66332B;
+    background-color: white;
+    
+}
+.add-to-cart-button{
+    color: white;
+    background-color: #66332B;
+}
