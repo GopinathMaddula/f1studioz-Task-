@@ -1,0 +1,38 @@
+.tabs3-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #34495E;
+}
+.name-container{
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+}
+.heading{
+    font-family: helvetica;
+    font-size: 16px;
+    color: white;
+    margin-left: 20px;
+    font-weight: 200;
+}
+.sub-heading{
+    font-family: helvetica;
+    font-size: 14px;
+    color: #E4E4E4;
+    margin-top: 12px;
+    margin-left: 16px;
+    font-weight: 100;
+}
+.back-arrow{
+    color: white;
+    height: 20px;
+    width: 25px;
+    margin-top: 10px;
+
+}
+.dots{
+    color: white;
+    margin-right: 20px;
+}

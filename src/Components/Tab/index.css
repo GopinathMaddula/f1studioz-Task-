@@ -1,0 +1,20 @@
+.tabs1-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #34495E;
+}
+.carts1{
+    color: #FEFEFE;
+    font-family: helvetica;
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+    padding: 15px 25px;
+}
+.cart-selected{
+    font-size: 17px;
+    font-weight: bold;
+    border-bottom: 3px solid #FACA30;
+}

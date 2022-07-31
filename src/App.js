@@ -1,24 +1,23 @@
-import logo from './logo.svg';
+import Desktop1 from './Components/Desktop1';
+import Desktop2 from './Components/Desktop2';
+import Desktop3 from './Components/Desktop3';
+import Desktop4 from './Components/Desktop4';
+import Desktop5 from './Components/Desktop5';
+import {Route, Routes} from 'react-router-dom'
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Routes>
+      <Route exact path='/' element={<Desktop1 />}/>
+      <Route exact path='/desktop2' element={<Desktop2 />}/>
+      <Route exact path='/desktop3' element={<Desktop3 />}/>
+      <Route exact path='/desktop4' element={<Desktop4 />}/>
+      <Route exact path='/desktop5' element={<Desktop5 />}/>
+    </Routes>
+
+    </>
   );
 }
 

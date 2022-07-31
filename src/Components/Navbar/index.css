@@ -1,0 +1,53 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #000000;
+    height: 64px;
+    padding-left: 16px;
+}
+.f1-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #ED357E;
+    color: #FEFEFE;
+    font-family: Arial;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    font-size: 13px;
+    margin-top: 10px;
+}
+.first-flex-item{
+    display: flex;
+    flex-direction: row;
+}
+.studioz{
+    font-family: arial;
+    font-size: 21px;
+    font-weight: bold;
+    color: #FEFEFE;
+    margin-top: 19px;
+    margin-left: 10px;
+}
+.second-flex-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 22%;
+}
+.icon{
+    color: #525960;
+    height: 25px;
+    width: 25px;
+    padding-top: 20px;
+}
+.img{
+    height: 32px;
+    width: 32px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
