@@ -12,10 +12,10 @@ export default function Desktop1(){
 
     return(
         <>
-            {/* <Navbar /> */}
+            <Navbar />
             <Tab cartsTab = {cartsTab}/>
             <Carts cartSelected={cartSelected}/>
-            <Tab cartsTab = {cartsTab}/>
+            
         </>
     )
 }
