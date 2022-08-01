@@ -15,6 +15,7 @@ export default function Desktop1(){
             {/* <Navbar /> */}
             <Tab cartsTab = {cartsTab}/>
             <Carts cartSelected={cartSelected}/>
+            <Tab cartsTab = {cartsTab}/>
         </>
     )
 }
